@@ -1,6 +1,7 @@
 const generateMarkdown = function generateMarkdown(data) {
 const readMeTemplate = `
 # ${data.projectName}
+[![GitHub license](https://img.shields.io/badge/license-${data.projectLicense}-important.svg)](${data.projectURL})
 
 ## Description
 ${data.projectDescription}
